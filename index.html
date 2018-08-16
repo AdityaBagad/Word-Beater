@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- CSS reference -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Word Beater</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header text-white">
+    <h1>Word Beater</h1>
+  </header>
+
+  <!-- Main Contents -->
+  <div class="container-fluid text-center">
+    <div class="col-md-6 mx-auto">
+      <p class="lead">
+        Type The Given Word Within
+        <span class="" id="seconds">5</span> Seconds:
+      </p>
+      <h1 class="display-3 text-center mb-3" id="current-word">hello</h1>
+      <input type="text" class="form-control form-control-md" placeholder="Start typing..." id="word-input" autofocus>
+      <h4  id="message"></h4>
+
+      <!-- Time & Score Columns -->
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Time Left:
+            <span id="time">0</span>
+          </h5>
+        </div>
+        <div class="col-md-6">
+          <h5>Score:
+            <span id="score">0</span>
+          </h5>
+        </div>
+      </div>
+
+      <!-- Instructions -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="card text-white">
+            <div class="card-body">
+              <h5 class="card-title">Instructions</h5>
+              Type each word in the given amount of seconds to score. To play again, just type the current word. Your score will reset
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <!-- Game Script -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

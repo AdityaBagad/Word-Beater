@@ -1,0 +1,20 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+#seconds {
+    color: #d50000
+}
+
+.header {
+    background-color: #ff1744;
+}
+
+.card {
+    padding: 5px;
+    background-color: #ef5350;
+}
